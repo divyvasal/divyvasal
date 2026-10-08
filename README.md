@@ -32,5 +32,5 @@ Building fast LLM inference at [Coral Bricks](https://coralbricks.ai). I fix thi
 **FlashInfer** <sub>· 0 merged · 1 open</sub>  
 🟢 [#4885](https://github.com/flashinfer-ai/flashinfer/pull/4885) Stabilize JIT cached ops across environments  
 
-<sub>🟣 merged · 🟢 open · ⚪ draft · updated automatically every 6 hours</sub>
+<sub>🟣 merged · 🟢 open · ⚪ draft · updated automatically every day</sub>
 <!-- contributions:end -->

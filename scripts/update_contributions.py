@@ -78,7 +78,7 @@ def render(labels: dict) -> str:
             rows.append(f"{ICON[s]} [#{it['number']}]({it['html_url']}) {text}  ")
         rows.append("")
     head = f"#### Open-source contributions · {merged} merged · {opened} open\n"
-    foot = "<sub>🟣 merged · 🟢 open · ⚪ draft · updated automatically every 6 hours</sub>"
+    foot = "<sub>🟣 merged · 🟢 open · ⚪ draft · updated automatically every day</sub>"
     return head + "\n" + "\n".join(rows) + "\n" + foot
 
 
