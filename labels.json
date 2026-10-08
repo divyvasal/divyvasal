@@ -1,0 +1,21 @@
+{
+  "vllm-project/vllm#49845": "Start mixed-attention models without `--block-size`",
+  "vllm-project/vllm#58457": "Catch a block size a backend rejects, at startup",
+  "sgl-project/sglang#38932": "Fix NVFP4 crash with adaptive speculative decoding",
+  "sgl-project/sglang#41324": "Stop one logprobs stream from stalling the server",
+  "sgl-project/sglang#39240": "Fix Gemma 4 tool calls with mangled arguments",
+  "sgl-project/sglang#42812": "Fix a DeepSeek-V4 hang with HiCache and DSPARK",
+  "sgl-project/sglang#41379": "Test image tokens in usage on the chat path",
+  "LMCache/LMCache#4830": "Fix silent KV cache corruption",
+  "LMCache/LMCache#4015": "Free a dead client's pinned GPU memory",
+  "LMCache/LMCache#4079": "Share KV copy code across transfer modes",
+  "LMCache/LMCache#4410": "Hybrid-attention models in engine-driven mode",
+  "LMCache/LMCache#4072": "Survive a cache server restart without crashing vLLM",
+  "LMCache/LMCache#4068": "Release locks on skipped cache writes",
+  "LMCache/LMCache#3932": "Keep serving when the S3 tier hits its cap",
+  "LMCache/LMCache#3909": "Rebuild S3 tier state after a restart",
+  "LMCache/LMCache#3892": "One S3 bucket per tenant",
+  "LMCache/LMCache#3992": "Correct the hybrid-models docs",
+  "LMCache/LMCache#4944": "Fix flaky port collisions in MQ tests",
+  "flashinfer-ai/flashinfer#4885": "Stabilize JIT cached ops across environments"
+}
