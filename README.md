@@ -25,9 +25,9 @@ Building fast LLM inference at [Coral Bricks](https://coralbricks.ai). I fix thi
 🟢 [#4072](https://github.com/LMCache/LMCache/pull/4072) Survive a cache server restart without crashing vLLM  
 🟢 [#4068](https://github.com/LMCache/LMCache/pull/4068) Release locks on skipped cache writes  
 🟢 [#3992](https://github.com/LMCache/LMCache/pull/3992) Correct the hybrid-models docs  
+🟢 [#3932](https://github.com/LMCache/LMCache/pull/3932) Keep serving when the S3 tier hits its cap  
 🟢 [#3909](https://github.com/LMCache/LMCache/pull/3909) Rebuild S3 tier state after a restart  
 🟢 [#3892](https://github.com/LMCache/LMCache/pull/3892) One S3 bucket per tenant  
-⚪ [#3932](https://github.com/LMCache/LMCache/pull/3932) Keep serving when the S3 tier hits its cap  
 
 **FlashInfer** <sub>· 0 merged · 1 open</sub>  
 🟢 [#4885](https://github.com/flashinfer-ai/flashinfer/pull/4885) Stabilize JIT cached ops across environments  
