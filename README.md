@@ -3,14 +3,15 @@
 Building fast LLM inference at [Coral Bricks](https://coralbricks.ai). I fix things in the engines we run in production.
 
 <!-- contributions:start -->
-#### Open-source contributions · 6 merged · 13 open
+#### Open-source contributions · 6 merged · 14 open
 
 **vLLM** <sub>· 2 merged · 0 open</sub>  
 🟣 [#58457](https://github.com/vllm-project/vllm/pull/58457) Catch a block size a backend rejects, at startup  
 🟣 [#49845](https://github.com/vllm-project/vllm/pull/49845) Start mixed-attention models without `--block-size`  
 
-**SGLang** <sub>· 1 merged · 4 open</sub>  
+**SGLang** <sub>· 1 merged · 5 open</sub>  
 🟣 [#38932](https://github.com/sgl-project/sglang/pull/38932) Fix NVFP4 crash with adaptive speculative decoding  
+🟢 [#43726](https://github.com/sgl-project/sglang/pull/43726) Size the sparse prefill workspace per request, not num_reqs x longest  
 🟢 [#42812](https://github.com/sgl-project/sglang/pull/42812) Fix a DeepSeek-V4 hang with HiCache and DSPARK  
 🟢 [#41379](https://github.com/sgl-project/sglang/pull/41379) Test image tokens in usage on the chat path  
 🟢 [#41324](https://github.com/sgl-project/sglang/pull/41324) Stop one logprobs stream from stalling the server  
