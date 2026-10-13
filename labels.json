@@ -17,5 +17,13 @@
   "LMCache/LMCache#3892": "One S3 bucket per tenant",
   "LMCache/LMCache#3992": "Correct the hybrid-models docs",
   "LMCache/LMCache#4944": "Fix flaky port collisions in MQ tests",
-  "flashinfer-ai/flashinfer#4885": "Stabilize JIT cached ops across environments"
+  "flashinfer-ai/flashinfer#4885": "Stabilize JIT cached ops across environments",
+  "vllm-project/vllm#49844": "Garbage output with PP=2 on GLM-MoE-DSA when torch.compile and CUDA graphs combine",
+  "sgl-project/sglang#42548": "DeepSeek-V4 HiCache: the SWA host pool is too small, so idle prefixes miss the host tier",
+  "sgl-project/sglang#42465": "DeepSeek-V4 + HiCache: TP ranks deadlock under concurrent long prefills",
+  "sgl-project/sglang#38795": "NVFP4 + adaptive speculative decoding fails CUDA-graph capture",
+  "sgl-project/sglang#32459": "EAGLE speculative decoding silently collapses multi-turn prefix reuse",
+  "LMCache/LMCache#4071": "Design proposal: hybrid-attention (multi-group KV) support for engine-driven transport",
+  "LMCache/LMCache#4014": "The server keeps a dead vLLM client's KV pool memory until it restarts",
+  "flashinfer-ai/flashinfer#4884": "JIT cached ops rebuild needlessly (PATH-dependent CUDA home, mtime staleness)"
 }
