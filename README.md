@@ -3,19 +3,22 @@
 Building fast LLM inference at [Coral Bricks](https://coralbricks.ai). I fix things in the engines we run in production.
 
 <!-- contributions:start -->
-#### Open-source contributions · 6 merged · 13 open · 8 reported
+#### Open-source contributions · 6 merged · 15 open · 9 reported
 
 **vLLM** <sub>· 2 merged · 0 open · 1 reported</sub>  
 🟣 [#58457](https://github.com/vllm-project/vllm/pull/58457) Catch a block size a backend rejects, at startup  
 🟣 [#49845](https://github.com/vllm-project/vllm/pull/49845) Start mixed-attention models without `--block-size`  
 🐞 [#49844](https://github.com/vllm-project/vllm/issues/49844) Garbage output with PP=2 on GLM-MoE-DSA when torch.compile and CUDA graphs combine  
 
-**SGLang** <sub>· 1 merged · 4 open · 4 reported</sub>  
+**SGLang** <sub>· 1 merged · 6 open · 5 reported</sub>  
 🟣 [#38932](https://github.com/sgl-project/sglang/pull/38932) Fix NVFP4 crash with adaptive speculative decoding  
+🟢 [#44940](https://github.com/sgl-project/sglang/pull/44940) Function_call: Stop re-scanning the open DSML invoke on every streamed delta (DeepSeek V3.2/V4/V4.1)  
+🟢 [#44923](https://github.com/sgl-project/sglang/pull/44923) Refresh is_all_greedy / is_any_greedy when filter_batch removes rows  
 🟢 [#42812](https://github.com/sgl-project/sglang/pull/42812) Fix a DeepSeek-V4 hang with HiCache and DSPARK  
 🟢 [#41379](https://github.com/sgl-project/sglang/pull/41379) Test image tokens in usage on the chat path  
 🟢 [#41324](https://github.com/sgl-project/sglang/pull/41324) Stop one logprobs stream from stalling the server  
 🟢 [#39240](https://github.com/sgl-project/sglang/pull/39240) Fix Gemma 4 tool calls with mangled arguments  
+🐞 [#44941](https://github.com/sgl-project/sglang/issues/44941) DeepSeek V3.2/V4/V4.1 streaming tool-call parser: pre-existing bugs found while fuzzing  
 🐞 [#42548](https://github.com/sgl-project/sglang/issues/42548) DeepSeek-V4 HiCache: the SWA host pool is too small, so idle prefixes miss the host tier  
 🐞 [#42465](https://github.com/sgl-project/sglang/issues/42465) DeepSeek-V4 + HiCache: TP ranks deadlock under concurrent long prefills  
 ✅ [#38795](https://github.com/sgl-project/sglang/issues/38795) NVFP4 + adaptive speculative decoding fails CUDA-graph capture  
