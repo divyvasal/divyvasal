@@ -3,7 +3,7 @@
 Building fast LLM inference at [Coral Bricks](https://coralbricks.ai). I fix things in the engines we run in production.
 
 <!-- contributions:start -->
-#### Open-source contributions · 6 merged · 15 open · 9 reported
+#### Open-source contributions · 7 merged · 14 open · 9 reported
 
 **vLLM** <sub>· 2 merged · 0 open · 1 reported</sub>  
 🟣 [#58457](https://github.com/vllm-project/vllm/pull/58457) Catch a block size a backend rejects, at startup  
@@ -24,12 +24,12 @@ Building fast LLM inference at [Coral Bricks](https://coralbricks.ai). I fix thi
 ✅ [#38795](https://github.com/sgl-project/sglang/issues/38795) NVFP4 + adaptive speculative decoding fails CUDA-graph capture  
 ✅ [#32459](https://github.com/sgl-project/sglang/issues/32459) EAGLE speculative decoding silently collapses multi-turn prefix reuse  
 
-**LMCache** <sub>· 3 merged · 8 open · 2 reported</sub>  
+**LMCache** <sub>· 4 merged · 7 open · 2 reported</sub>  
 🟣 [#4830](https://github.com/LMCache/LMCache/pull/4830) Fix silent KV cache corruption  
+🟣 [#4410](https://github.com/LMCache/LMCache/pull/4410) Hybrid-attention models in engine-driven mode  
 🟣 [#4079](https://github.com/LMCache/LMCache/pull/4079) Share KV copy code across transfer modes  
 🟣 [#4015](https://github.com/LMCache/LMCache/pull/4015) Free a dead client's pinned GPU memory  
 🟢 [#4944](https://github.com/LMCache/LMCache/pull/4944) Fix flaky port collisions in MQ tests  
-🟢 [#4410](https://github.com/LMCache/LMCache/pull/4410) Hybrid-attention models in engine-driven mode  
 🟢 [#4072](https://github.com/LMCache/LMCache/pull/4072) Survive a cache server restart without crashing vLLM  
 🟢 [#4068](https://github.com/LMCache/LMCache/pull/4068) Release locks on skipped cache writes  
 🟢 [#3992](https://github.com/LMCache/LMCache/pull/3992) Correct the hybrid-models docs  
