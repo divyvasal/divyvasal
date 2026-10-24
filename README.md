@@ -36,7 +36,7 @@ Building fast LLM inference at [Coral Bricks](https://coralbricks.ai). I fix thi
 🟢 [#3932](https://github.com/LMCache/LMCache/pull/3932) Keep serving when the S3 tier hits its cap  
 🟢 [#3909](https://github.com/LMCache/LMCache/pull/3909) Rebuild S3 tier state after a restart  
 🟢 [#3892](https://github.com/LMCache/LMCache/pull/3892) One S3 bucket per tenant  
-🐞 [#4071](https://github.com/LMCache/LMCache/issues/4071) Design proposal: hybrid-attention (multi-group KV) support for engine-driven transport  
+✅ [#4071](https://github.com/LMCache/LMCache/issues/4071) Design proposal: hybrid-attention (multi-group KV) support for engine-driven transport  
 ✅ [#4014](https://github.com/LMCache/LMCache/issues/4014) The server keeps a dead vLLM client's KV pool memory until it restarts  
 
 **FlashInfer** <sub>· 0 merged · 1 open · 1 reported</sub>  
